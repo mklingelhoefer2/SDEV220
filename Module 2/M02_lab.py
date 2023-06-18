@@ -12,6 +12,6 @@ while True:
     else:
         gpa = input("What is your GPA?\n")
         if float(gpa) >= 3.5:
-            print(("{first_name} {last_name} has made the Dean's list.".format(firstName = first_name.capitalize(), lastName = last_name.capitalize())))
+            print(("{first_name} {last_name} has made the Dean's list.".format(first_name = first_name.capitalize(), last_name = last_name.capitalize())))
         if float(gpa) >= 3.25:
-            print(("{first_name} {last_name} has made the honor roll.".format(firstName = first_name.capitalize(), lastName = last_name.capitalize())))
+            print(("{first_name} {last_name} has made the honor roll.".format(first_name = first_name.capitalize(), last_name = last_name.capitalize())))
